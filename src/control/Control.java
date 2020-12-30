@@ -61,13 +61,7 @@ public class Control {
     }
     
     public boolean validaF(ArrayList datos){
-    boolean val;
-        val=miValida.validaFicheroC(datos);
-    
-        if(val==true){
-    return true;
-    }else
-        return false;    
+      return miValida.validaFicheroC(datos);   
     }
     
     /**
